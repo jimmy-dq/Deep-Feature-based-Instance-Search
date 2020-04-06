@@ -57,4 +57,9 @@ python data_pre_processing.py
 python handle_query.py
 ```
 
+## Retrieval
 
+``` bash
+python retrieval.py
+```
+## 
