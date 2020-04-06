@@ -46,10 +46,6 @@ This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
 Use the following code to generate proposals ans corp proposals
 
 ``` bash
-python ../../tools/eval.py 	 \
-	--tracker_path ./results \ # result path
-	--dataset VOT2018        \ # dataset name
-	--num 1 		 \ # number thread to eval
-	--tracker_prefix 'model'   # tracker_name
+python data_pre_processing.py
 ```
 
