@@ -23,6 +23,7 @@ This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
 * PyTorch 0.4.1
 * matplotlib
 * OpenCV
+* tqdm
 
 ### Step-by-step Installation
 
@@ -39,6 +40,7 @@ This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
     conda install pytorch=0.4.1 torchvision cuda92 -c pytorch
     pip install opencv-python
     pip install matplotlib
+    pip install tqdm
     ~~~
 ### Retrieval Test
 
