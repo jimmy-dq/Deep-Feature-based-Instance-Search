@@ -42,31 +42,33 @@ This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
     pip install matplotlib
     pip install tqdm
     ~~~
-### Retrieval Test
+## Retrieval Test
 
-## Proposal generation and crop
+### Proposal generation and crop
 Use the following code to generate proposals ans corp proposals
 
 ``` bash
 python data_pre_processing.py
 ```
 
-## Extract features for queries
+### Extract features for queries
 
 ``` bash
 python handle_query.py
 ```
 
-## Retrieval
+### Retrieval
 
 ``` bash
 python retrieval.py
 ```
 
-## Save ranklist and show qualitative results
-
+### Save ranklist and show qualitative results
 
 ``` bash
 python show_result.py
 ```
+
+## Qualitative results
+We show the qualitative retrieval results using VGG-11 features here:
 
