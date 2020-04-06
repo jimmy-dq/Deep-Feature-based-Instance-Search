@@ -62,4 +62,11 @@ python handle_query.py
 ``` bash
 python retrieval.py
 ```
-## 
+
+## Save ranklist and show qualitative results
+
+
+``` bash
+python show_result.py
+```
+
