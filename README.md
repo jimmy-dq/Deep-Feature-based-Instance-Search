@@ -45,7 +45,7 @@ This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
 ## Retrieval Test
 
 ### Proposal generation and crop
-Use the following code to generate proposals ans corp proposals
+Use the following code to generate and crop proposals.
 
 ``` bash
 python data_pre_processing.py
