@@ -74,5 +74,5 @@ We show the qualitative retrieval results using VGG-11 features here:
 
 <div align="center">
   <img src="./results_query_5_search_10.png" width="800px" />
-  <p>Top-10 retrieval results of VGG-11 feature based search method with respect to 5 query images (Q1 to Q5). The first column images indicates the query images and the other images are retrieval images which are listed in an descending order from left to right.</p>
+  <p>Top-10 retrieval results of VGG-11 feature based search method with respect to 5 query images (Q1 to Q5). The first column indicates the query images and the other images are retrieval images which are listed in a descending order from left to right.</p>
 </div>
