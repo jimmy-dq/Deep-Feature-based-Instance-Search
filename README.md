@@ -1,4 +1,4 @@
-# A-Simple-Instance-Search-Baseline
+# Deep-Feature-based-Instance-Search
 
 Contact: [Jimmy.Wu@my.cityu.edu.hk](mailto:Jimmy.Wu@my.cityu.edu.hk). Any questions or discussion are welcome! 
 
