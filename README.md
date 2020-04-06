@@ -44,10 +44,17 @@ This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
     ~~~
 ### Retrieval Test
 
-## Generate Proposals
+## Proposal generation and crop
 Use the following code to generate proposals ans corp proposals
 
 ``` bash
 python data_pre_processing.py
 ```
+
+## Extract features for queries
+
+``` bash
+python handle_query.py
+```
+
 
