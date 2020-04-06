@@ -12,10 +12,7 @@ def generate_ss_rect():
     newHeight = 200
     ss = cv2.ximgproc.segmentation.createSelectiveSearchSegmentation()
     for i in range(len(imgs)):
-        print(i)
-        # for each img: 1) generate proposal; 2) crop img and save for deep network; 3) save proposal locations for sift.
-        # im = cv2.imread(os.path.join(base_path, imgs[i]))
-
+        print('[%d]/[%d]' %(i, len(imgs)))
         im = cv2.imread(os.path.join(base_path, imgs[i]))
         newWidth = int(im.shape[1] * 200 / im.shape[0])
         im = cv2.resize(im, (newWidth, newHeight))
@@ -31,10 +28,10 @@ def crop_ss_rect():
     rect_npy_files = os.listdir(os.path.join(base_path, 'Selective_search_200'))
     count = 1
     for rect_npy in rect_npy_files:
-        print(count)
-        if count<3920:
-            count+=1
-            continue
+        # print(count)
+        # if count<3920:
+        #     count+=1
+        #     continue
         # if count == 3920:
         #     print('a')
         search_img = rect_npy[0:-4]
