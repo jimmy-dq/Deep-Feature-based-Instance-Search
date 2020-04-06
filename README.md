@@ -1,4 +1,4 @@
-# Deep-Feature-based-Instance-Search
+# A-Simple-Instance-Search-Baseline
 
 Contact: [Jimmy.Wu@my.cityu.edu.hk](mailto:Jimmy.Wu@my.cityu.edu.hk). Any questions or discussion are welcome! 
 
@@ -13,3 +13,32 @@ We firstly use the selective search method to generate proposal for each retriev
 
 ## Dataset
 We use the INSTRE dataset for this retrieval task. For dataset details can be found in https://github.com/insikk/instre_evaluation
+
+## Installation
+This code is tested on an Ubuntu 18.04 system with a RTX 2080TI GPU.
+
+### Requirments
+* Anaconda with Python 3.6.
+* Nvidia GPU.
+* PyTorch 0.4.1
+* matplotlib
+* OpenCV
+
+### Step-by-step Installation
+
+0. [Optional but highly recommended] Firstly create a new conda environment. 
+
+    ~~~
+    conda create --name instanceSearch python=3.6
+    conda activate instanceSearch
+    ~~~
+
+1. Install pytorch/opencv/matplotlib.
+
+    ~~~
+    conda install pytorch=0.4.1 torchvision cuda92 -c pytorch
+    pip install opencv-python
+    pip install matplotlib
+    ~~~
+
+
